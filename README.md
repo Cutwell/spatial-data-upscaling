@@ -4,7 +4,7 @@
 ## Augmenting data in specific search space using large broad dataset
 During data collection for genetic optimisation, available data may be broad instead of specific. Training a neural network on broad data can enable data collection for a specific search space at increased resolution. This pipeline suggests a method for training a model on a broad dataset, and applying it to generate data at a desired resolution for a specific search space.
 
-| | | | |
+| | | | | |
 |:---:|:---:|:---:|:---:|:---:|
 | ![](/.github/README/wind_world.png) | ![](/.github/README/wind_uk.png) | ![](/.github/README/wind_plot.png) | ![](/.github/README/wind_pred_plot.png) | ![](/.github/README/wind_zoomed.png) |
 | Broad dataset has large amount of data.. | ..but is insufficient at specific search space. | The model wants to learn spatial features of the datset.. | ..and is able to predict similar data, suggesting it has learnt the dataset. | Using this model, we can generate high resolution data for our search space. |
