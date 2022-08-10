@@ -1,4 +1,4 @@
-# augment-sparse-data
+# Spatial data upscaling
  Pipeline for augmenting sparse data for genetic optimisation
 
 ## Augmenting data in specific search space using large broad dataset
